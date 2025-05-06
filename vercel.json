@@ -2,9 +2,10 @@
     "build": {
       "env": {
         "NODE_VERSION": "18"
-      },
-      "command": "npm run build",
-      "outputDirectory": "dist"
-    }
+      }
+    },
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist"
   }
   
